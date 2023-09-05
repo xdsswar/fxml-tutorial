@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<!--
+
+          DO NOT PASS CONTROLLER TO THE FXML IF THE CONTROLLER NEEDS PARAMETERS
+
+-->
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="135.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1">
+   <Label fx:id="nameLabel" text="name">
+      <VBox.margin>
+         <Insets bottom="5.0" top="5.0"/>
+      </VBox.margin>
+   </Label>
+   <Label fx:id="ageLabel" layoutX="165.0" layoutY="118.0" text="age">
+      <VBox.margin>
+         <Insets bottom="5.0" top="5.0"/>
+      </VBox.margin>
+   </Label>
+   <Label fx:id="weightLabel" layoutX="165.0" layoutY="126.0" text="weight">
+      <VBox.margin>
+         <Insets bottom="5.0" top="5.0"/>
+      </VBox.margin>
+   </Label>
+</VBox>
